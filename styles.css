@@ -18,7 +18,8 @@ h2:first-of-type {
 
 table,
 tr,
-td {
+td,
+p {
     border: 1px solid black;
 }
 
@@ -33,6 +34,11 @@ tr {
 
 td {
     width: 20px;
+}
+
+p {
+    width: 50px;
+    margin-left: 48%;
 }
 
 input[type=number] {
